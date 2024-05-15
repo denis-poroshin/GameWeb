@@ -1,0 +1,64 @@
+@media (max-width: 767px) {
+    .center{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .top{
+        height: 735px;
+    }
+    .header{
+        display: flex;
+        align-items: center;
+
+        &__title{
+            font-size: 32px;
+            line-height: 39px;
+            text-align: center;
+            margin-top: 238px;
+            
+        }
+        &__info{
+            font-size: 14px;
+            line-height: 22px;
+            text-align: center;
+            padding-bottom: 32px;
+           
+        }
+    }
+    .game__link{
+        height: 300px;
+        width: 343px;
+    }
+    .top_game__info{
+        height: 654px;
+    }
+    .mini_game{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        &__title{
+            font-size: 32px;
+            line-height: 39px;
+        }
+        &__info{
+            width: 343px;
+            font-size: 14px;
+            line-height: 22px;
+            text-align: center;
+        }
+        &__svg{
+            display: none;
+        }
+        &__svg_mobile{
+            display: block;
+            margin-top: 64px;
+        }
+    }
+
+
+
+     
+}
+
+    
